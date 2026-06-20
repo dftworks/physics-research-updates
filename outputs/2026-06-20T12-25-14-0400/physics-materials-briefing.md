@@ -1,57 +1,64 @@
 # Physics & Materials Briefing — June 20, 2026
 
-Window: June 13-20, 2026, with a few major late-week stories whose preprints or first coverage landed just outside the window. Sources checked live on June 20, 2026.
+*Window: June 13–20, 2026, with a few major stories from the preceding ~2 weeks whose primary papers or first wide coverage landed just outside the strict 7-day window. Sources checked live on June 20, 2026. Tailored for a computational condensed-matter researcher working on first-principles/DFT of 2D monolayers (strain engineering, carrier mobility & carrier–phonon scattering, band-nesting, surface functionalization, SHG/χ⁽²⁾, Rashba).*
+
+---
 
 ## Top stories
 
-### 1. Thorium-229 nuclear clocks moved from concept to operating references
+**1. Surface "sculpting" pushes a cuprate superconductor to higher T and field.**
+Chalmers University researchers patterned nanoscale hills and valleys (sub-nanometer features) into an MgO substrate to template how atoms in an ultrathin YBCO film settle, and report higher critical temperature and much stronger critical-field resilience as a result. The result reframes substrate engineering — not just chemistry — as a lever on high-T_c superconductivity, and is directly resonant with strain/epitaxy control of 2D films.
+[ScienceDaily, Jun 17](https://www.sciencedaily.com/releases/2026/06/260617032211.htm)
 
-Two independent teams reported working solid-state nuclear clocks based on the laser-addressable Th-229 nuclear transition in CaF2, using continuous-wave vacuum-UV light near 148 nm. The European setup compared the nuclear signal with a Yb+ clock and used it to constrain ultralight dark-matter couplings; the Chinese setup demonstrated reproducible clock operation across distinct crystals. This is a major precision-measurement milestone because the clock reference lives in the nucleus rather than the electron shell, making it a new probe of fundamental constants and possible beyond-standard-model fields. Sources: [Phys.org](https://phys.org/news/2026-06-nuclear-clocks.html), [arXiv 2606.04997](https://arxiv.org/abs/2606.04997), [arXiv 2606.08870](https://arxiv.org/abs/2606.08870).
+**2. JUNO delivers its first oscillation results — and sharpens the neutrino picture.**
+The Jiangmen Underground Neutrino Observatory measured sin²θ₁₂ = 0.3092 ± 0.0087 and Δm²₂₁ = (7.50 ± 0.12)×10⁻⁵ eV² from just 59 days of data, cutting uncertainties by ~1.6× over decades of combined prior experiments. It is the cleanest demonstration yet that JUNO is on track to resolve neutrino mass ordering, the field's marquee open question.
+[Nature paper](https://www.nature.com/articles/s41586-026-10538-z) · [arXiv:2511.14593](https://arxiv.org/abs/2511.14593) · [Scientific American](https://www.scientificamerican.com/article/juno-neutrino-observatory-releases-first-results/)
 
-### 2. Multipartite entanglement was quantified in a centimeter-scale strange-metal crystal
+**3. Electrons in ultraclean graphene flow as a near-frictionless Dirac fluid.**
+IISc and NIMS teams imaged collective, viscous (hydrodynamic) electron flow in graphene that decouples electrical and thermal conductivity, violating the Wiedemann–Franz law by >200× at low temperature. Beyond being a tabletop analog of quark–gluon-plasma hydrodynamics, it underscores that in clean 2D systems carrier–carrier scattering can dominate over carrier–phonon scattering — a regime worth keeping in mind for mobility modeling.
+[ScienceDaily, Apr 15](https://www.sciencedaily.com/releases/2026/04/260415042152.htm) · [phys.org background](https://phys.org/news/2025-09-graphene-reveals-electrons-frictionless-fluid.html)
 
-TU Wien-led researchers used neutron scattering and quantum Fisher information to infer strong many-body entanglement in a macroscopic crystal of a Ce-Pd-Si strange metal. The result links quantum-information diagnostics directly to correlated-electron materials, where strange-metal transport, high-temperature superconductivity, and quantum criticality remain entangled problems in both senses of the word. For condensed-matter theory, the key point is not only that entanglement is present, but that it becomes a measurable material descriptor. Sources: [Phys.org](https://phys.org/news/2026-06-high-degree-quantum-entanglement-centimeter.html), [Nature Physics DOI](https://doi.org/10.1038/s41567-026-03298-0).
+**4. Light-powered, programmable valley optoelectronic nanocircuit on-chip.**
+A Nature Photonics work pairs atomically-thin materials with engineered nanostructures to control light at deep-subwavelength scales, implementing a reconfigurable valley-optoelectronic circuit aimed at AI and quantum-photonic workloads. It is a concrete step toward using valley/spin degrees of freedom in 2D materials as on-chip information carriers.
+[ScienceDaily, Jun 1](https://www.sciencedaily.com/releases/2026/06/260601025343.htm)
 
-### 3. IceCube's IC 210922A neutrino gained a dusty starburst-galaxy counterpart candidate
+**5. Nanoscale gold metamaterials supercharge near-field radiative heat transfer.**
+Researchers used patterned gold metamaterials to push up to ~4× more energy across nanoscale gaps than comparable conventional systems, advancing near-field thermal management for dense electronics and thermophotovoltaics. The work highlights how engineered surface modes (plasmon/phonon-polariton) reshape energy flow at the nanoscale.
+[ScienceDaily, Jun 8](https://www.sciencedaily.com/news/matter_energy/physics/)
 
-Astronomers linked the high-energy IceCube neutrino IC 210922A to JCMT0402-0424, a quadruply lensed dusty star-forming galaxy at redshift z = 2.988, nicknamed "Shadow Blaster" in coverage. ALMA and lens modeling point to a compact, gas-rich starburst core without a bright gamma-ray or X-ray active-galaxy counterpart, suggesting that cosmic-noon starbursts may contribute to the diffuse high-energy neutrino background. The result broadens the source class beyond blazars and classical transients, though the single-source association still needs statistical caution. Sources: [Space.com](https://www.space.com/science/particle-physics/scientists-trace-high-energy-ghost-particle-to-the-shadow-blaster-galaxy), [arXiv 2605.25412](https://arxiv.org/abs/2605.25412).
+**6. Oxford builds a "cat state" from already-quantum components.**
+Oxford physicists prepared a Schrödinger-cat-like superposition whose constituents are themselves highly nonclassical, a route toward more robust, hardware-efficient quantum error correction. It is an incremental but meaningful advance in bosonic/encoded-qubit approaches.
+[ScienceDaily, Jun 15](https://www.sciencedaily.com/news/matter_energy/quantum_physics/)
 
-### 4. A differential atom interferometer passed a key noise-rejection test for dark-matter and gravitational-wave searches
-
-The AION collaboration demonstrated a prototype differential atom interferometer that can recover common signals while canceling realistic experimental noise. The result matters because long-baseline cold-atom interferometers are being developed as detectors for ultralight dark matter and gravitational waves in frequency bands complementary to laser interferometers. It is a practical step from beautiful atom optics toward instruments that can survive real noise budgets. Sources: [Phys.org](https://phys.org/news/2026-06-quantum-sensor-major-obstacle-dark.html), [Nature DOI](https://doi.org/10.1038/s41586-026-10617-1).
-
-### 5. Graphene spin transport became electrically tunable through magnetic proximity
-
-Manchester and NUS researchers showed large, gate-tunable spin signals in graphene superlattices placed near magnetic contacts, with spin-signal reversal near charge neutrality. The mechanism uses proximity-induced spin splitting without chemically turning graphene into a magnetic material, which is attractive for low-power spintronic device concepts. For 2D materials work, it is a clean reminder that interface engineering can be as important as the monolayer's intrinsic bands. Sources: [Phys.org](https://phys.org/news/2026-06-electrically-tunable-polarization-graphene-path.html), [Nature Communications DOI](https://doi.org/10.1038/s41467-026-71915-w).
-
-### 6. Reversible chirality switching in MoS2 generated spin-polarized currents without magnets
-
-Science Tokyo researchers used electrochemical intercalation to insert and remove chiral molecular cations in layered MoS2, switching chirality-induced spin selectivity on and off without destroying the host structure. The important materials idea is dynamic, reversible symmetry control: chirality becomes a writable electronic state rather than a fixed synthetic property. That makes the work unusually relevant to functionalized 2D semiconductors, spin currents, and nonlinear chiral responses. Sources: [Phys.org](https://phys.org/news/2026-06-reversible-chirality-mos-generates-currents.html), [ACS Nano DOI](https://doi.org/10.1021/acsnano.6c04758).
-
-### 7. A photonic Floquet platform observed five localization phases in one driven system
-
-Researchers in China used a programmable photonic loop lattice to map five distinct localization phases, including critical phases with anomalous transport beyond the classic localized/extended dichotomy. The experiment gives localization physics a tunable optical testbed where disorder, hopping, onsite potentials, and periodic driving can be dialed with unusual control. It is a useful bridge between wave physics, quantum simulation, and transport concepts that also recur in disordered electronic materials. Sources: [Phys.org](https://phys.org/news/2026-06-phases-localization-physics-quantum.html), [Physical Review Letters DOI](https://doi.org/10.1103/6msd-mdw4).
+---
 
 ## Close to your work
 
-These are recent field publications adjacent to Junwen's 2D-materials/DFT interests, not all strict last-7-days headline stories.
+*Recent field publications adjacent to Junwen's research — not strictly last-7-days headlines. Mostly the last 1–6 weeks; a couple of slightly older anchors included.*
 
-- [Optical spin injection in graphane and fluorographene](https://arxiv.org/abs/2606.19571) (arXiv, Jun 19): DFT optical spin-injection spectra in hydrogenated/fluorinated graphene connect directly to surface functionalization, SOC-controlled spin polarization, and optically addressable spin currents.
-- [Strain- and electric-field-tunable valley polarization in Mo0.75V0.25Te2](https://arxiv.org/abs/2606.19954) (arXiv, Jun 19): A first-principles MoTe2 alloying study reports strain- and field-enhanced valley splitting, closely matching band-edge engineering and spin-valley device questions.
-- [Enhanced electronic correlations and altermagnetic ground state of 2D CsCr3Sb5 monolayers](https://arxiv.org/abs/2606.19740) (arXiv, Jun 19): Tensile strain shifts flat bands and van Hove singularities toward the Fermi level, a natural cousin of strain-controlled band nesting and transport.
-- [Destructive interference of SHG in AA-stacked MoTe2/WSe2](https://arxiv.org/abs/2605.21231) (arXiv, May 20): GW-BSE-supported SHG phase engineering in TMD heterobilayers offers a concrete template for computing chi^(2) phase, exciton resonances, and stacking/twist control.
-- [Giant nonlinear optical chirality in twisted MoS2/WSe2 heterobilayers](https://arxiv.org/abs/2605.17695) (arXiv, May 17): Twist-angle control of SHG circular dichroism is directly adjacent to monolayer/heterobilayer nonlinear optics and symmetry-controlled chi^(2).
+- **Strain-Tunable Optoelectronics in PdS₂ Monolayer: Band Nesting and Carrier–Phonon Scattering** ([arXiv:2511.02383](https://arxiv.org/abs/2511.02383)). Almost a mirror of your program: 0–4% biaxial tensile strain gives a >3× electron-mobility gain, traced to reduced effective mass *and* suppressed carrier–phonon linewidths, with a robust band-nesting feature preserved across the BZ. Direct overlap with your PdS₂ / band-nesting / carrier–phonon work — a key comparison and citation.
+- **Electron–Phonon Coupling and CDW Instabilities in W₂N and Halogen-Functionalized W₂N Monolayers** ([arXiv:2606.04953](https://arxiv.org/html/2606.04953)). Halogenation as a knob on electron–phonon coupling and lattice (CDW) stability in a 2D monolayer — squarely in your functionalization (halogenation/hydrogenation) + EPC space.
+- **Strain-Tunable Inter-Valley Scattering Sets Universal Mobility Enhancement in n- and p-type 2D TMDs** ([npj 2D Mater. Appl.](https://www.nature.com/articles/s41699-026-00689-y) · [arXiv:2511.08975](https://arxiv.org/pdf/2511.08975)). A unifying picture for how strain reshapes intervalley electron–phonon scattering to raise mobility in TMDs — methodologically a strong template for your strain-vs-scattering studies.
+- **Ultrafast Acoustic Modulation of SHG in Monolayer TMDs** ([arXiv:2605.03272](https://arxiv.org/abs/2605.03272)). Surface-acoustic-wave (226 MHz) dynamic modulation of monolayer χ⁽²⁾, with stroboscopic phase-resolved detection — the experimental analog of dynamic/acoustic strain control of SHG, relevant to your nonlinear-optics interests.
+- **Tunable Rashba Splitting in Janus InXPbP (X = S, Se, Te) Monolayers** ([arXiv:2606.04720](https://arxiv.org/html/2606.04720)). DFT study of out-of-plane-symmetry-broken Janus monolayers with pronounced, tunable Rashba splitting — directly relevant to your Rashba/spin-orbit and Janus-functionalization threads.
 
-Conference watch: the [2026 MRS Fall Meeting & Exhibit](https://www.mrs.org/meetings-events/annual-meetings) is scheduled for November 29-December 4, 2026, in Boston, and should be a useful target for 2D quantum materials, nonlinear optics, and strain-engineered semiconductor sessions.
+**Upcoming conferences/venues in this area:**
+- *Condensed Matter and Quantum Materials 2026*, Loughborough, UK, Jun 30 – Jul 3 ([Physics World](https://physicsworld.com/event/condensed-matter-and-quantum-materials-2026/)).
+- *Fluctuations, Quenched Disorder and Strong Correlations*, Dresden, Jun 22–24.
+- SPIE Photonics West *2D Photonic Materials and Devices* and ACS *2D Materials for Next-Gen Optoelectronics* call for papers are open ([SPIE](https://spie.org/pwo/conferencedetails/2d-materials-and-devices) · [ACS](https://axial.acs.org/materials-science/call-for-papers-2d-materials-for-next-generation-optoelectronics-pathways-to-integration-new-functionalities-and-emerging-architectures)).
+
+---
 
 ## Research idea
 
-**Hook:** Dynamic Janus/chiral functionalization as a single control knob for Rashba splitting, out-of-plane SHG, and mobility in 2D semiconductors.
+**Hook:** Use Janus out-of-plane functionalization to *co-engineer* SHG and Rashba — then ask whether dynamic (acoustic) strain can tune both simultaneously and trace a single underlying symmetry knob.
 
-**What to compute:** Build paired Janus or chiral-intercalated variants of MoS2/WSe2-like TMDs plus Junwen-relevant heavier monolayers such as CdSb, ZnSb, PdS2, or BiTeBr-like slabs. For each structure, run SOC-DFT/HSE band structures, Rashba parameter extraction, Berry curvature/nonlinear Hall descriptors, DFPT phonons, electron-phonon-limited mobility via Wannier interpolation, and independent-particle or BSE-corrected chi^(2) under +/-3% biaxial and uniaxial strain.
+**What to compute/test.** Take a strain-tunable, band-nesting monolayer you already model (PdS₂-type, or a Sb-based ZnSb/CdSb analog) and build a Janus functionalized variant (e.g., one face H-terminated, the other halogen-terminated) to break the out-of-plane mirror symmetry. With a DFPT + Wannier electron–phonon + DFT nonlinear-optics workflow (e.g., a sum-over-states / length-gauge χ⁽²⁾ implementation): (i) map the static χ⁽²⁾ tensor — especially the newly-allowed out-of-plane components — and the Rashba parameter α_R as functions of biaxial/uniaxial strain; (ii) add a finite-q acoustic-phonon (frozen-SAW) displacement field to emulate dynamic strain and compute the resulting periodic modulation of both χ⁽²⁾ and α_R; (iii) correlate against band-nesting energy and carrier–phonon linewidths to see whether strain that boosts mobility also enhances or suppresses out-of-plane SHG.
 
-**Why it is novel:** This would unify three threads that are usually optimized separately: dynamic chirality/intercalation from the MoS2 spin-current story, SHG phase engineering from twisted TMD heterobilayers, and strain-limited transport from Junwen's 2D monolayer work. The deliverable could be a Pareto map of materials where strain enhances chi^(2) and Rashba spin splitting without catastrophically increasing carrier-phonon scattering.
+**Why it's novel / ties to prior work.** Janus SHG, Rashba, and strain–mobility are each studied in isolation (e.g., [arXiv:2606.04720](https://arxiv.org/html/2606.04720) for Rashba, [arXiv:2605.03272](https://arxiv.org/abs/2605.03272) for acoustic SHG, [arXiv:2511.02383](https://arxiv.org/abs/2511.02383) for strain/band-nesting/mobility), but no work unifies out-of-plane SHG and Rashba under a *single* symmetry-breaking and a *dynamic* strain drive. A computed figure-of-merit linking α_R, the out-of-plane χ⁽²⁾, and the strain-dependent mobility would give a concrete design rule for "Rashba-active nonlinear-optical" monolayers and a spin-FET/SHG dual-function platform — a clean extension of your existing strain-engineering and band-nesting publications.
+
+---
 
 ## On the horizon
 
-Watch the 2026 MRS Fall Meeting program as it firms up; it is the next large materials venue likely to surface new 2D quantum-materials, nonlinear-optics, and strain-engineering results.
+Watch for follow-up JUNO data (longer exposure pushing toward neutrino mass ordering) and the *Condensed Matter and Quantum Materials 2026* meeting (Loughborough, Jun 30 – Jul 3), where new strain/substrate-engineering and 2D-transport results are likely to surface.
